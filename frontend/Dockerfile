@@ -1,13 +1,22 @@
-FROM python:3.10.9
 
-COPY requirements.txt /tmp/requirements.txt
+FROM python:3.8-slim
 
-RUN python -m pip install --timeout 300000 -r /tmp/requirements.txt
+# Set the working directory
+WORKDIR /frontend
 
-COPY . /app
+# Copy the current directory contents into the container at /frontend
+COPY . /frontend
 
-WORKDIR /app
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 3000
+# Make port 8501 available to the world outside this container
+EXPOSE 8501
 
-CMD ["streamlit", "run",  'main.py', "0.0.0.0", " --port", "3000"]
+# Define environment variable
+ENV NAME Frontend
+
+# Run streamlit when the container launches
+CMD ["streamlit", "run", "main.py"]
+
+

@@ -1,13 +1,35 @@
-version: '3'
+# version: '3.8'
+# services:
+#   api:
+#     build:
+#       context: ./api
+#     ports:
+#       - '80:80'
+#   frontend:
+#     build:
+#       context: ./frontend
+#     ports:
+#       - '3000:8501'
+
+
+version: '3.8'
+ 
 services:
-  api:
+  api-1:
     build:
       context: ./api
     ports:
-      - '80:80'
-  client:
+      - "80:80"
+    volumes:
+      - ./api:/app
+ 
+  frontend-1:
     build:
       context: ./frontend
     ports:
-      - '3000:3000'
-  
+      - "8501:8501"
+    volumes:
+      - ./frontend:/frontend
+    depends_on:
+      - api-1
+

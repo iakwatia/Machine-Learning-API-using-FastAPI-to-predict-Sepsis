@@ -25,9 +25,9 @@ def status_check():
     return{"Status": "API is live..."}
 
 
-GradientBoost_pipeline = joblib.load('../Models/GradientBoost_pipeline.joblib')
-forest_pipeline = joblib.load('../Models/forest_pipeline.joblib')
-encoder = joblib.load('../Models/encoder.joblib')
+GradientBoost_pipeline = joblib.load('./models/GradientBoost_pipeline.joblib')
+forest_pipeline = joblib.load('./models/forest_pipeline.joblib')
+encoder = joblib.load('./models/encoder.joblib')
 
 
 @app.post("/forest_prediction")
