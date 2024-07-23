@@ -41,6 +41,9 @@ Docker Container & Image
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 
+links
+[FastAPI link](https://iakwatia-ike-api.hf.space/docs)
+
 Author
 
 Isaac asante-Kwatia
