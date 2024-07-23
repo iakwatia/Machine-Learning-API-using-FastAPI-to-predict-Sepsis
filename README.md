@@ -1,6 +1,11 @@
 # Machine-Learning-API-using-FastAPI-to-predict-Sepsis
 Building an ML model to predict Sepsis and building an API using FastAPI to embed the built ML model
 
+The analysis and machine learning applications of sepsis datasets are critical in advancing medical research and improving patient care outcomes. 
+By leveraging these datasets, it will aid in the early detection, diagnosis, and management of sepsis in patients. 
+This is crucial because early intervention can significantly improve patient outcomes. This project objective is to build an ML app that will predict sepsis in a patient
+based on the features in the data set below
+
 ### Data 
 
 The data consists of the following columns:
@@ -35,3 +40,7 @@ fastAPI
 Docker Container & Image
 ![alt text](image-3.png)
 ![alt text](image-4.png)
+
+Author
+
+Isaac asante-Kwatia
