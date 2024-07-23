@@ -24,3 +24,14 @@ Age: patients age (years)
 Insurance: If a patient holds a valid insurance card
 
 Sepsis: Positive: if a patient in ICU will develop a sepsis , and Negative: otherwi
+
+streamlit app
+![alt text](image.png)
+
+fastAPI
+![alt text](image-1.png)
+![alt text](image-2.png)
+
+Docker Container & Image
+![alt text](image-3.png)
+![alt text](image-4.png)
