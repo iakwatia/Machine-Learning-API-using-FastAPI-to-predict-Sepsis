@@ -2,7 +2,8 @@
 Building an ML model to predict Sepsis and building an API using FastAPI to embed the built ML model
 
 The analysis and machine learning applications of sepsis datasets are critical in advancing medical research and improving patient care outcomes. 
-By leveraging these datasets, it will aid in the early detection, diagnosis, and management of sepsis in patients. 
+By leveraging these datasets, 
+ill aid in the early detection, diagnosis, and management of sepsis in patients. 
 This is crucial because early intervention can significantly improve patient outcomes. This project objective is to build an ML app that will predict sepsis in a patient
 based on the features in the data set below
 
@@ -20,7 +21,7 @@ SK: Blood Work Result-2 (mm)
 
 TS: Blood Work Result-3 (mu U/ml)
 
-M11: Body mass index (weight in kg/(height in m)^2
+M11: Body mass index weight in kg/(height in m)^2
 
 BD2: Blood Work Result-4 (mu U/ml)
 
@@ -29,6 +30,8 @@ Age: patients age (years)
 Insurance: If a patient holds a valid insurance card
 
 Sepsis: Positive: if a patient in ICU will develop a sepsis , and Negative: otherwi
+
+App Screenshot
 
 streamlit app
 ![alt text](image.png)
@@ -43,6 +46,8 @@ Docker Container & Image
 
 links
 [FastAPI link](https://iakwatia-ike-api.hf.space/docs)
+
+[Article link](https://medium.com/@isaac.asantekwatia/leveraging-machine-learning-to-predict-sepsis-using-fastapi-743f2f92a865)
 
 Author
 
